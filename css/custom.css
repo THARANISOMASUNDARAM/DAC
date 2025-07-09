@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+}
+
 body{
     background-color: #1A1A1A;
     font-family: 'Barlow';
@@ -9,8 +13,11 @@ body{
     flex-direction: row;
 }
 
-.content-center{
+.justify-center{
     justify-content: center;
+}
+
+.align-center{
     align-items: center;
 }
 
@@ -88,4 +95,17 @@ body{
     padding: 12px 14px;
     background-color: #262626;
     border-radius: 8px;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url('./../assets/images/hero_background.png');
+    background-repeat: no-repeat;
+    background-position: center 230px;
+    background-size:100%;
+    border: 1px solid #333333;
+}
+
+.testimonials img{
+    height: 40px;
 }
