@@ -101,7 +101,8 @@ body{
     height: 100vh;
     background-image: url('./../assets/images/hero_background.png');
     background-repeat: no-repeat;
-    background-position: center 230px;
+    background-position: center;
+    background-position-y: 280px;
     background-size:100%;
     border: 1px solid #333333;
 }
