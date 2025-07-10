@@ -54,6 +54,9 @@ header{
 .g-13{
     gap: 13px;
 }
+.g-20{
+    gap: 20px;
+}
 .g-30{
     gap: 30px;
 }
@@ -113,4 +116,18 @@ header{
 
 .testimonials img{
     height: 40px;
+    padding: 40px 0px;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.badge{
+    position: absolute;
+    background-color: #1A1A1A;
+    padding: 20px 34px;
+    border: 1px solid #333333;
+    border-radius: 100px;
+    bottom: -130px;
 }
