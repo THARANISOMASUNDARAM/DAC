@@ -1,0 +1,97 @@
+    body{
+        font-family: 'Barlow';
+    }
+.nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width:76%;
+    background-color: #262626;
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight:500;
+    padding:20px 162px 20px 162px;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    gap:5px;
+    justify-items:left;
+    padding-right:50px;
+    font-weight:600;
+    font-size:18px;
+     
+    }
+.logo img{
+    height:55px;
+    width:55px;   
+}
+.content{
+    display:flex;
+    flex-direction:row;
+     gap:20px;   
+}
+.contact{
+    height:30px;
+    width:100px;
+    background-color: #9EFF00;
+    padding:10px 10px 10px 20px;
+    border-radius:8px;
+    color:#262626;
+    font-size:18px;
+    font-weight: 600;
+    align-content: center;
+    margin-left:80px; 
+}
+h1{
+    
+    font-size:45px;
+    font-weight: 550;
+    color:#FFFFFF;
+    width:40%;   
+   
+}
+.detail{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    gap:50px;
+}
+.detail-content{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+
+}
+
+.padding{
+    height:25px;
+    width:90px;
+    padding:14px;
+    background-color: #3a3a3a;
+    border-radius: 10px;
+    font-size:22px;
+    font-weight: 500;
+    color:white;    
+}
+.contact2{
+    height:35px;
+    width:100px;
+    background-color: #9EFF00;
+    padding:10px 10px 10px 20px;
+    border-radius:8px;
+    color:#262626;
+    font-size:18px;
+    font-weight: 600;
+    align-content: center;
+    
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:40px;
+}
