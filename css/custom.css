@@ -105,13 +105,17 @@ header{
 }
 
 .hero{
-    height: 100vh;
+    height: 630px !important;
     background-image: url('./../assets/images/hero_background.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: 280px;
+    background-position-y: 440px;
     background-size:100%;
     border: 1px solid #333333;
+}
+
+.hero h1{
+    width: 800px;
 }
 
 .testimonials img{
@@ -129,5 +133,94 @@ header{
     padding: 20px 34px;
     border: 1px solid #333333;
     border-radius: 100px;
+    bottom: 12px !important;
+}
+
+.navbar-desktop{
+    display: flex;
+}
+
+.navbar-mobile{
+    display: none;
+}
+
+.testimonials-mobile{
+    display: none;
+}
+
+/* .hero */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .hero{
+        height: 100vh;
+        background-image: url('./../assets/images/hero_background.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 280px;
+        background-size:100%;
+        border: 1px solid #333333;
+    }
+
+    .badge{
+    position: absolute;
+    background-color: #1A1A1A;
+    padding: 20px 34px;
+    border: 1px solid #333333;
+    border-radius: 100px;
     bottom: -130px;
+}
+
+}
+
+@media screen and (max-width:430px) {
+    body{
+        padding: 0px 10px;
+    }
+    .navbar-desktop{
+        display: none;
+    }
+
+    .navbar-mobile{
+        display: flex;
+    } 
+   
+    .testimonials{
+        display: none;
+    }
+    
+    .testimonials-mobile{
+        display: grid;
+    }
+    .f-68{
+        font-size: 34px;
+    }
+
+    .grid-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .highlight{
+        padding: 0px;
+        background-color: transparent;
+        border-radius: 8px;
+        color: #98989A;
+    }
+    .hero h1{
+        width: 100%;
+    }
+
+    .hero p{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero{
+        height: 100vh;
+        background-image: url('./../assets/images/hero_background.png');
+        background-repeat: no-repeat;
+        background-position: contain !important;
+        border: 1px solid #333333;
+    }
 }
