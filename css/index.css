@@ -1,16 +1,17 @@
     body{
         font-family: 'Barlow';
+        padding:0px 100px;
     }
+    
 .nav{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    width:76%;
+    width:100%;
     background-color: #262626;
     color:#FFFFFF;
     font-size: 18px;
     font-weight:500;
-    padding:20px 162px 20px 162px;
 }
 .logo{
     display:flex;
