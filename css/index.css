@@ -97,7 +97,7 @@ h1{
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 .hero{
@@ -136,11 +136,57 @@ h1{
     font-weight: 400;
     color:#FFFFFF;
     position:relative;
-    bottom:115px;
-    left:500px;
+    bottom:170px;
+    left:410px;
     text-align: center;
     align-items: center;   
     justify-content: center;
     align-content: center;
     
+}
+.btn{
+    display:none;
+}
+@media(max-width:390px){
+    .nav{
+    display:flex;
+    flex-direction:row;
+    background-color: #262626;
+    color:#FFFFFF;
+    
+   
+}
+.mobile_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+}
+
+.content{
+    display:none;
+}
+.contact{
+    display:none;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    font-weight:600;
+    font-size:18px;
+    }
+    .logo img{
+    height:55px;
+    width:55px;
+}
+  .btn{
+    display:flex;
+    
+  }
+   body{
+        font-family: 'Barlow';
+       
+    }
+   
+
 }
